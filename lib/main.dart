@@ -178,23 +178,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   final Map<int, AnimationController> _starAnimationControllers = {};
 
   final List<Post> posts = [
-    Post(
-      id: 3,
-      userName: 'Zeeshan Ahmad',
-      venueName: 'Zeeshan Ahmad',
-      location: 'Check in',
-      time: '22 h',
-      isVerified: true,
-      hasPromo: false,
-      imageSource: 'party-video',
-      profileImage: 'zeeshan',
-      likes: '100k',
-      comments: '250',
-      shares: '100k',
-      isVenue: false,
-      caption:
-          "As we celebrate you today my love, I'm reminiscing, each of the wonderful September 16th's I've been so lucky to spend...",
-    ),
+    
     Post(
       id: 1,
       userName: 'User Name',
@@ -229,6 +213,23 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
       shares: '100k',
       isVenue: true,
       hasFoodTag: true,
+    ),
+    Post(
+      id: 3,
+      userName: 'Zeeshan Ahmad',
+      venueName: 'Zeeshan Ahmad',
+      location: 'Check in',
+      time: '22 h',
+      isVerified: true,
+      hasPromo: false,
+      imageSource: 'party-video',
+      profileImage: 'zeeshan',
+      likes: '100k',
+      comments: '250',
+      shares: '100k',
+      isVenue: false,
+      caption:
+          "As we celebrate you today my love, I'm reminiscing, each of the wonderful September 16th's I've been so lucky to spend...",
     ),
     Post(
       id: 4,
